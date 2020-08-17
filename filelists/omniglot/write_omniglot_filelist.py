@@ -1,3 +1,5 @@
+#this file used to generate json file about train val test dataset with their lables.
+
 import numpy as np
 from os import listdir
 from os.path import isfile, isdir, join

@@ -1,3 +1,6 @@
+# this file used to generate roted image for omniglot for 0,90,180,270
+
+
 import numpy as np
 from os import listdir
 from os.path import isfile, isdir, join
@@ -9,6 +12,7 @@ from PIL import Image
 cwd = os.getcwd() 
 data_path = join(cwd,'images')
 savedir = './'
+
 
 #if not os.path.exists(savedir):
 #    os.makedirs(savedir)

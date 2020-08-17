@@ -1,3 +1,5 @@
+# used to generate a noLatin dataset for novel classes
+
 import numpy as np
 from os import listdir
 from os.path import isfile, isdir, join
